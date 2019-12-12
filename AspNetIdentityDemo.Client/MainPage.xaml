@@ -9,6 +9,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <ListView Width="400" x:Name="lstWeatherForcast" HorizontalAlignment="Left" HorizontalContentAlignment="Stretch">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Summary}" HorizontalAlignment="Center" Margin="2"/>
+                        <TextBlock Text="{Binding Date}" HorizontalAlignment="Center" Margin="2"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </Grid>
 </Page>

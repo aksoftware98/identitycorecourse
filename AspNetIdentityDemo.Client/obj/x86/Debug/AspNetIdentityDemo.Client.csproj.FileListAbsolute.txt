@@ -50,3 +50,8 @@ C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentit
 C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Client\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Client\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Client\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885202160000000.json
+C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Client\bin\x86\Debug\LoginWindow.xbf
+C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Client\obj\x86\Debug\LoginWindow.g.i.cs
+C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Client\obj\x86\Debug\LoginWindow.g.cs
+C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Client\obj\x86\Debug\LoginWindow.xaml
+C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Client\obj\x86\Debug\LoginWindow.xbf
