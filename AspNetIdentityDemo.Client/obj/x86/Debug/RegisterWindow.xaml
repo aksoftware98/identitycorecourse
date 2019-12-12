@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="AspNetIdentityDemo.Client.RegisterWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AspNetIdentityDemo.Client"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Create a new account" FontSize="35" HorizontalAlignment="Center" Margin="3"/>
+            <TextBox x:ConnectionId='2' x:Name="txtEmail" Margin="2" PlaceholderText="Email"/>
+            <PasswordBox x:ConnectionId='3' x:Name="txtPassword" Margin="2" PlaceholderText="Password"/>
+            <PasswordBox x:ConnectionId='4' x:Name="txtConfirmPassword" Margin="2" PlaceholderText="Confirm Password"/>
+            <Button x:ConnectionId='5' x:Name="btnRegister" Margin="2" Content="Create account" HorizontalAlignment="Center"                          />
+        </StackPanel>
+    </Grid>
+</Page>
+

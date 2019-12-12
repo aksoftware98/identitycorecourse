@@ -218,6 +218,15 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
         "type": "package",
         "dependencies": {
@@ -305,6 +314,16 @@
         "build": {
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
+        }
+      },
+      "AspNetIdentityDemo.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/AspNetIdentityDemo.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AspNetIdentityDemo.Shared.dll": {}
         }
       }
     },
@@ -524,6 +543,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -792,6 +820,16 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "AspNetIdentityDemo.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/AspNetIdentityDemo.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AspNetIdentityDemo.Shared.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-arm-aot": {
@@ -1010,6 +1048,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.9": {
@@ -1279,6 +1326,16 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "AspNetIdentityDemo.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/AspNetIdentityDemo.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AspNetIdentityDemo.Shared.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-arm64-aot": {
@@ -1497,6 +1554,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -1766,6 +1832,16 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "AspNetIdentityDemo.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/AspNetIdentityDemo.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AspNetIdentityDemo.Shared.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-x64": {
@@ -1984,6 +2060,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -2252,6 +2337,16 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "AspNetIdentityDemo.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/AspNetIdentityDemo.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AspNetIdentityDemo.Shared.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-x64-aot": {
@@ -2470,6 +2565,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -2739,6 +2843,16 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "AspNetIdentityDemo.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/AspNetIdentityDemo.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AspNetIdentityDemo.Shared.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-x86": {
@@ -2957,6 +3071,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -3225,6 +3348,16 @@
         "native": {
           "runtimes/win10-x86/nativeassets/uap10.0.15138/clrcompression.dll": {}
         }
+      },
+      "AspNetIdentityDemo.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/AspNetIdentityDemo.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AspNetIdentityDemo.Shared.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-x86-aot": {
@@ -3443,6 +3576,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.7-rel-27913-00": {
@@ -3711,6 +3853,16 @@
         "build": {
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
+        }
+      },
+      "AspNetIdentityDemo.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/AspNetIdentityDemo.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AspNetIdentityDemo.Shared.dll": {}
         }
       }
     }
@@ -4224,6 +4376,37 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.9": {
@@ -8143,11 +8326,18 @@
         "runtimes/win10-x86/lib/uap10.0.15138/netstandard.dll",
         "runtimes/win10-x86/nativeassets/uap10.0.15138/clrcompression.dll"
       ]
+    },
+    "AspNetIdentityDemo.Shared/1.0.0": {
+      "type": "project",
+      "path": "../AspNetIdentityDemo.Shared/AspNetIdentityDemo.Shared.csproj",
+      "msbuildProject": "../AspNetIdentityDemo.Shared/AspNetIdentityDemo.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.17763": [
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.9"
+      "AspNetIdentityDemo.Shared >= 1.0.0",
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.9",
+      "Newtonsoft.Json >= 12.0.3"
     ]
   },
   "packageFolders": {
@@ -8183,7 +8373,11 @@
       },
       "frameworks": {
         "uap10.0.17763": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\dell\\Documents\\AK Academy\\Course 1\\App\\AspNetIdentityDemo\\AspNetIdentityDemo.Shared\\AspNetIdentityDemo.Shared.csproj": {
+              "projectPath": "C:\\Users\\dell\\Documents\\AK Academy\\Course 1\\App\\AspNetIdentityDemo\\AspNetIdentityDemo.Shared\\AspNetIdentityDemo.Shared.csproj"
+            }
+          }
         }
       }
     },
@@ -8193,6 +8387,10 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.2.9, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
           }
         },
         "imports": [

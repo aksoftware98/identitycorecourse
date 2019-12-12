@@ -1,0 +1,1 @@
+C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Client\AspNetIdentityDemo.Client.csproj;x86
