@@ -66,7 +66,7 @@ namespace AspNetIdentityDemo.Api
             });
 
             services.AddScoped<IUserService, UserService>();
-
+            services.AddTransient<IMailService, SendGridMailService>();
             services.AddControllers();
         }
 
@@ -79,6 +79,8 @@ namespace AspNetIdentityDemo.Api
             }
 
             app.UseHttpsRedirection();
+
+            app.UseStaticFiles();
 
             app.UseRouting();
 

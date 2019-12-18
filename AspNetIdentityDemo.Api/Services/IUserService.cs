@@ -1,5 +1,6 @@
 ﻿using AspNetIdentityDemo.Shared;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System;
@@ -18,17 +19,22 @@ namespace AspNetIdentityDemo.Api.Services
         Task<UserManagerResponse> RegisterUserAsync(RegisterViewModel model);
 
         Task<UserManagerResponse> LoginUserAsync(LoginViewModel model);
+
+        Task<UserManagerResponse> ConfirmEmailAsync(string userId, string token);
+
     }
 
     public class UserService : IUserService
     {
 
         private UserManager<IdentityUser> _userManger;
-        private IConfiguration _configuration; 
-        public UserService(UserManager<IdentityUser> userManager, IConfiguration configuration) 
+        private IConfiguration _configuration;
+        private IMailService _mailService; 
+        public UserService(UserManager<IdentityUser> userManager, IConfiguration configuration, IMailService mailService) 
         {
             _userManger = userManager;
             _configuration = configuration;
+            _mailService = mailService; 
         }
 
         public async Task<UserManagerResponse> RegisterUserAsync(RegisterViewModel model)
@@ -53,7 +59,17 @@ namespace AspNetIdentityDemo.Api.Services
 
             if(result.Succeeded)
             {
-                // TODO: Send a confirmation Email 
+                var confirmEmailToken = await _userManger.GenerateEmailConfirmationTokenAsync(identityUser);
+
+                var encodedEmailToken = Encoding.UTF8.GetBytes(confirmEmailToken);
+                var validEmailToken = WebEncoders.Base64UrlEncode(encodedEmailToken);
+
+                string url = $"{_configuration["AppUrl"]}/api/auth/confirmemail?userid={identityUser.Id}&token={validEmailToken}";
+
+                await _mailService.SendEmailAsync(identityUser.Email, "Confirm your email", $"<h1>Welcome to Auth Demo</h1>" +
+                    $"<p>Please confirm your email by <a href='{url}'>Clicking here</a></p>");
+
+
                 return new UserManagerResponse
                 {
                     Message = "User created successfully!",
@@ -117,5 +133,34 @@ namespace AspNetIdentityDemo.Api.Services
             };
         }
 
+        public async Task<UserManagerResponse> ConfirmEmailAsync(string userId, string token)
+        {
+            var user = await _userManger.FindByIdAsync(userId);
+            if (user == null)
+                return new UserManagerResponse
+                {
+                    IsSuccess = false,
+                    Message = "User not found"
+                };
+
+            var decodedToken = WebEncoders.Base64UrlDecode(token);
+            string normalToken = Encoding.UTF8.GetString(decodedToken);
+
+            var result = await _userManger.ConfirmEmailAsync(user, normalToken);
+
+            if (result.Succeeded)
+                return new UserManagerResponse
+                {
+                    Message = "Email confirmed successfully!",
+                    IsSuccess = true,
+                };
+
+            return new UserManagerResponse
+            {
+                IsSuccess = false,
+                Message = "Email did not confirm",
+                Errors = result.Errors.Select(e => e.Description)
+            };
+        }
     }
 }
