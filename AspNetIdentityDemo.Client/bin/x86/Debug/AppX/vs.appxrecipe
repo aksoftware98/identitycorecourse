@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Client\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-12T19:56:16.819</Modified>
+      <Modified>2019-12-22T00:23:49.156</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Client\bin\x86\Debug\AspNetIdentityDemo.Client.exe">
       <PackagePath>entrypoint\AspNetIdentityDemo.Client.exe</PackagePath>
-      <Modified>2019-12-12T19:56:16.226</Modified>
+      <Modified>2019-12-22T00:23:47.886</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dell\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -48,7 +48,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Shared\bin\Debug\netstandard2.0\AspNetIdentityDemo.Shared.dll">
       <PackagePath>AspNetIdentityDemo.Shared.dll</PackagePath>
-      <Modified>2019-12-12T19:55:57.446</Modified>
+      <Modified>2019-12-19T21:17:01.007</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -98,19 +98,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Client\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-12-12T19:56:16.010</Modified>
+      <Modified>2019-12-22T00:23:47.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Client\bin\x86\Debug\LoginWindow.xbf">
       <PackagePath>LoginWindow.xbf</PackagePath>
-      <Modified>2019-12-12T19:56:16.011</Modified>
+      <Modified>2019-12-22T00:23:47.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Client\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-12-12T19:56:16.011</Modified>
+      <Modified>2019-12-22T00:23:47.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Client\bin\x86\Debug\RegisterWindow.xbf">
       <PackagePath>RegisterWindow.xbf</PackagePath>
-      <Modified>2019-12-12T19:56:16.011</Modified>
+      <Modified>2019-12-22T00:23:47.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -122,7 +122,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Client\bin\x86\Debug\Core\AspNetIdentityDemo.Client.exe">
       <PackagePath>AspNetIdentityDemo.Client.exe</PackagePath>
-      <Modified>2019-12-12T19:56:16.813</Modified>
+      <Modified>2019-12-22T00:23:49.125</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

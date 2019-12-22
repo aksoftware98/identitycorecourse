@@ -123,3 +123,13 @@ C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentit
 C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Api\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Api\bin\Debug\netcoreapp3.1\SendGrid.dll
 C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Api\obj\Debug\netcoreapp3.1\AspNetIdentityDemo.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Api\bin\Debug\netcoreapp3.1\AspNetIdentityDemo.Api.Views.dll
+C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Api\bin\Debug\netcoreapp3.1\AspNetIdentityDemo.Api.Views.pdb
+C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Api\obj\Debug\netcoreapp3.1\AspNetIdentityDemo.Api.RazorAssemblyInfo.cache
+C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Api\obj\Debug\netcoreapp3.1\AspNetIdentityDemo.Api.RazorAssemblyInfo.cs
+C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Api\obj\Debug\netcoreapp3.1\AspNetIdentityDemo.Api.TagHelpers.input.cache
+C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Api\obj\Debug\netcoreapp3.1\AspNetIdentityDemo.Api.TagHelpers.output.cache
+C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Api\obj\Debug\netcoreapp3.1\AspNetIdentityDemo.Api.RazorCoreGenerate.cache
+C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Api\obj\Debug\netcoreapp3.1\Razor\Pages\ResetPassword.cshtml.g.cs
+C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Api\obj\Debug\netcoreapp3.1\AspNetIdentityDemo.Api.RazorTargetAssemblyInfo.cs
+C:\Users\dell\Documents\AK Academy\Course 1\App\AspNetIdentityDemo\AspNetIdentityDemo.Api\obj\Debug\netcoreapp3.1\AspNetIdentityDemo.Api.Views.pdb
